@@ -1,0 +1,124 @@
+nav {
+    color: whitesmoke;
+    font-family:'Montserrat', sans-serif;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family:'Montserrat', sans-serif;
+    padding-top: 10%;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.list-gt3 {
+    list-style: none;
+    font-size: calc(15px + 0.390625vw);
+    padding-top: 50px;
+    color: rgb(1, 121, 213);
+    max-width: 80%;
+    
+}
+
+.list-turbo {
+    list-style: none;
+    font-size: calc(15px + 0.390625vw);
+    padding-top: 50px;
+    color: rgb(146, 146, 146)
+}
+
+.list-taycan {
+    list-style: none;
+    font-size: calc(15px + 0.390625vw);
+    padding-top: 50px;
+    color: rgb(219, 22, 22)
+}
+
+.info-type {
+    color: whitesmoke;
+}
+
+.col-info {
+    text-align: left;
+}
+
+.col-sm-4 {
+    padding-top: 50px;
+}
+
+.col-one {
+    animation: fadeIn-2 1s ease-in-out forwards;
+    animation-delay: 900ms;
+    opacity: 0;
+}
+
+.col-two {
+    animation: fadeIn-2 1s ease-in-out forwards;
+    animation-delay: 1200ms;
+    opacity: 0;
+}
+
+.col-three {
+    animation: fadeIn-2 1s ease-in-out forwards;
+    animation-delay: 1500ms;
+    opacity: 0;
+}
+
+.d-flex {
+    color: whitesmoke;
+    font-family:'Montserrat', sans-serif;
+}
+
+.porsche-gt3 {
+    animation: fadeIn-1 1.5s ease-in-out forwards;
+    animation-delay: 500ms;
+    opacity: 0;
+}
+
+.porsche-turbo-s {
+    animation: fadeIn-1 1.5s ease-in-out forwards;
+    animation-delay: 750ms;
+    opacity: 0;
+}
+
+.porsche-taycan {
+    animation: fadeIn-1 1.5s ease-in-out forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+h2 {
+    animation: fadeIn-2 1s ease-in-out forwards;
+}
+
+
+
+@keyframes fadeIn-1 {
+    0% { opacity: 1;
+          transform: translateX(-1500px);
+    }
+    
+    25% {
+           opacity: 1;
+    }
+   
+     100% { opacity: 1;
+            transform: translateX(5px);
+    }
+   }
+
+
+@keyframes fadeIn-2 {
+    0% { opacity: 0;
+    }
+    
+    25% {
+           opacity: 0;
+    }
+   
+     100% { opacity: 1;
+    }
+   }
